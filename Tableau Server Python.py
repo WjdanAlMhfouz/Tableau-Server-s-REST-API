@@ -2,6 +2,13 @@
 from tableau_api_lib import sample_config 
 print(sample_config)
 
+from tableau_api_lib import TableauServerConnection
+from tableau_api_lib.utils.querying import get_groups_dataframe
+from tableau_api_lib.utils import querying
+import tableau_api_lib
+import numpy as np
+import pandas as pd
+
 
 #Signin to server
 tableau_config = {
